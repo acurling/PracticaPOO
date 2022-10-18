@@ -44,8 +44,8 @@ namespace PracticaPOO
                     case 1: SubMenuServicios(); break;
                     case 2: SubmenuCajeros(); break;
                     case 3: break;
-                    case 4: Cajero c = new Cajero();
-                        c.CrearCajero();
+                    case 4:
+                        Console.WriteLine("Gracias,  Adios");
                         break;
                     default:
                         break;
@@ -112,7 +112,7 @@ namespace PracticaPOO
                     default:
                         break;
                 }
-            } while (opcion != 4);
+            } while (opcion != 7);
 
         }
         public static void SubmenuCajeros()
